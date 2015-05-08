@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판</title>
+</head>
+<body>
+<h1>게시물 입력</h1>
+<!-- /add  => 서버주소다음 /add
+		add   => 서버주소/현제프로젝트(web2/step03/add) -->
+<form action="Add" method="POST">
+제목 : <input type="text" name="title"><br>
+내용 : <textarea rows="10" cols="50" name="content"></textarea>
+<input type="submit" value="등록">
+<input type="button" value="목록" onclick="location.href='List';">
+
+
+</form>
+</body>
+</html>
